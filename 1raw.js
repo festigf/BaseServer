@@ -3,7 +3,7 @@ var conta=0;
 var server = http.createServer(function (request, response)
      {   conta+=1; 
          console.log('request starting...'+conta);    
-         // respond    
+         // respond test   
          response.write('hello client!');    
          response.end();
     });
