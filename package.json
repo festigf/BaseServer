@@ -1,0 +1,12 @@
+{
+  "name": "baseserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1raw.js",
+  "scripts": {
+    "start": "node 1raw.js",
+    "debug": "node --nolazy --inspect-brk=9229 1raw.js"
+  },
+  "author": "gf",
+  "license": "ISC"
+}
